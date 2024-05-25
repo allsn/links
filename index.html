@@ -3,11 +3,16 @@
 
 <head>
   <title>Allison Nguyen</title>
+  
   <style>
+
     body {
       padding-top: 40px;
       padding-bottom: 40px;
       font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: #b8c1ec;
+      display: flex;
+      justify-content: center;
     }
 
   .banner-image {
@@ -17,43 +22,22 @@
     border-radius: 128px;
   }
 
-  .thumbnail {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
-  object-fit: cover;
-}
 
-body {
-  background-color: #b8c1ec;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.name {
-  color: #fffffe;
-  font-size: 24px;
-}
-
-.social-icons a {
-  color: #fffffe;
-  text-decoration: none;
-}
-
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-  text-align: center;
-  flex-grow: 1;
-}
-
-.items {
+  .items {
   display: flex;
   flex-direction: column;
   gap: 30px;
   max-width: 640px;
   flex-grow: 1;
+  justify-content: center;
+}
+
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
 
 .link {
@@ -64,9 +48,17 @@ body {
   padding: 5px;
 }
 
+.link a {
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
 
 .name {
   color: #fffffe;
+  font-size: 32px;
   display: flex;
   justify-content: center;
 }
@@ -88,7 +80,9 @@ body {
 </head>
 
 <body>
-  <div class="banner">
+  <div class="items">
+
+    <div class="banner">
     <img src="/thumbnails/headshot.png" alt="Allison Nguyen headshot" class="banner-image">
   </div>
 
@@ -129,6 +123,8 @@ body {
 
     <a target="_blank" href="https://www.brit.co/fancy-sandwich-recipes/">Fancy Sandwiches That Are Worthy Of The Dinner Table - Brit + Co</a>
   </div>
+
+</div>
 
 </body>
 
